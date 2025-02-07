@@ -1,3 +1,16 @@
+<div class="container marketing panel-default">
+	<div class="container row py-51 ">
+     <div class="col-xxl-8 pl">
+    <div class="row flex-lg-row-reverse align-items-center g-5">
+	<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+	<li class="breadcrumb-item"><a href="#">Beranda</a></li>
+	<li class="breadcrumb-item active" aria-current="page">Ekstrakurikuler</li>
+	</ol>
+	</nav>	
+    </div>
+    </div>
+    </div>
   <div data-aos="fade-down" class="aos-init aos-animate">
                 <h3 class="fw-bold text-center">Ekstrakurikuler</h3>
                 <div class="row justify-content-center pb-5">
@@ -13,7 +26,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/sQF2e6T1ezSaIkfvgHpDL2nxZOue1taPXx6BdjEF.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon pramuka" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -29,7 +42,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/JxB90OGiaJPfiroP1pdONfxPJvCxuMIDs79dp7pn.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/paskib.png"?>" alt="gambar icon paskib" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -45,7 +58,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/uxy0RdFa9Dn0119uWkQlZFHXT83n7b6EBGiG1Qy0.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/voli.png"?>" alt="gambar icon voli" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -62,7 +75,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/vVXnAxE1wdZfJJ2ZxwcduunpR4ATvbvmeDkg73pw.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/futsal.png"?>" alt="gambar icon futsal" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -78,7 +91,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/MBjFe7bdqYz0O1MiqZi6FmIjMRI4IWfzyMEumIfc.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon bahasa inggris" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -95,7 +108,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/2PQpd5nxHIh8Z0tEJptiozSPHEaZ3nAmcumpRzuI.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon bahasa arab" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -111,7 +124,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/MBjFe7bdqYz0O1MiqZi6FmIjMRI4IWfzyMEumIfc.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon kaligrafi" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -128,7 +141,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/MBjFe7bdqYz0O1MiqZi6FmIjMRI4IWfzyMEumIfc.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon tahfidz" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -146,7 +159,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/MBjFe7bdqYz0O1MiqZi6FmIjMRI4IWfzyMEumIfc.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon menjahit" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -163,7 +176,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/uxy0RdFa9Dn0119uWkQlZFHXT83n7b6EBGiG1Qy0.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon komputer" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -180,7 +193,7 @@
                         <div class="card bg-success shadow-sm h-100">
                             <div class="row no-gutters align-items-center">
                                 <div class="col-auto ps-1">
-                                    <img src="https://smk-kharisma-tugumulyo.sch.id/storage/media-ekstrakurikuler/uxy0RdFa9Dn0119uWkQlZFHXT83n7b6EBGiG1Qy0.png" alt="gambar icon pramuka" width="110px">
+                                    <img src="<?php echo base_url()."assets/icon/pramuka.png"?>" alt="gambar icon elektronik" width="110px">
                                 </div>
                                 <div class="col text-start">
                                     <div class="text-xs font-weight-bold text-uppercase text-white">
@@ -192,4 +205,6 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    </div>
                     </div>

@@ -27,6 +27,15 @@ class Mod_main extends CI_Controller {
 		$this->template->load('template','visi',$data);
 	}
 	
+	public function estrakulikuler()
+	{
+		$data['page'] = 'estrakulikuler';
+		$data['keywords'] = "Estrakulikuler - MA Ma'arif NU Musi Rawas";
+		$data['description'] = "Estrakulikuler - MA Ma'arif NU Musi Rawas";
+		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
+		$this->template->load('template','ekskul',$data);
+	}
+	
 	public function struktur()
 	{
 		$data['page'] = 'struktur';

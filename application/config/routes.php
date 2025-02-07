@@ -58,6 +58,7 @@ $route = array(
     'struktur' => 'mod_main/struktur',
     'artikel' => 'mod_main/artikel',
     'kontak' => 'mod_main/kontak',
+    'estrakulikuler' => 'mod_main/estrakulikuler',
     'berita' => 'berita/news',
 
 );
