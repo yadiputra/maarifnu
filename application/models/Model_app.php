@@ -108,6 +108,7 @@ class Model_app extends CI_model{
         $this->db->select('*');
 		$this->db->order_by('kod','DESC');
         $this->db->limit($dari);
+		$this->db->where(array('status'=>'1'));
         return $this->db->get($table);
     }
 	

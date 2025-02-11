@@ -45,7 +45,7 @@
 <div class="col-lg-5 wow fadeInUp" style="height: auto;"  data-aos="fade-right" data-aos-delay="300">
 <div class="position-relative h-100">
 <div class="gallery_img">
-	<img src="<?php echo base_url();?>assets/foto/<?php echo $record->img ?>" class="card-img-top d-block mx-lg-auto img-fluid">
+	<img src="<?php echo base_url();?>assets/foto/isra.jpg" class="card-img-top d-block mx-lg-auto img-fluid">
 </div>
 </div>
 </div>
@@ -196,9 +196,11 @@
 	 
 	<div class="container" data-aos="fade-up">
 		<div class="row g-5 mb-5">
-		<div class="col-lg-6 wow fadeInUp" style="min-height: 400px;" data-aos="zoom-in" data-aos-delay="150">
+		<div class="col-lg-1 wow fadeInUp">
+		</div>
+		<div class="col-lg-4 wow fadeInUp" style="min-height: 400px;" data-aos="zoom-in" data-aos-delay="150">
 		<div class="position-relative h-100 gallery_img">
-			<img class="img-fluid position-absolute w-100 h-100" src="assets/foto/img10.jpg" alt="" style="object-fit: cover;">
+			<img class="img-fluid position-absolute w-100 h-100" src="assets/foto/img10.jpg" alt="">
 		</div>
 		</div>
 		<div class="col-lg-6 wow fadeInUp">

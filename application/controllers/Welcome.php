@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
 		$data['page'] = 'home';
-		$data['record'] = $this->model_app->view_where('berita',array('status'=>1))->row();
+		$data['record'] = $this->model_app->view_where('berita',array('status'=>'3'))->row();
 		$data['prestasi'] = $this->model_app->view_where('prestasi',array('tingkat'=>1))->result_array();
 		$data['prof'] = $this->model_app->view_where('prestasi',array('tingkat'=>2))->result_array();
 		$data['nas'] = $this->model_app->view_where('prestasi',array('tingkat'=>3))->result_array();
