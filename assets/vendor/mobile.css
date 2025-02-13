@@ -107,13 +107,30 @@
   box-sizing: border-box;
   min-height: 1px;
 }
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+	padding-right: 2px;
+    padding-left: 2px;
+  }
+  .col-md-12{
+	flex: 0 0 auto;
+    width: 100%;  
+  }
+  .text-start {
+  text-align: center !important;
+	}
 }
  @media only screen and (max-width: 899px) {
+	 .right_ {
+    --bs-gutter-x: 4rem;
+	 }
+	
    .w-10 {
-	  width: 110% !important;
+	  width: 100% !important;
 	}
   .w-100 {
-    height: 27vh;
+    height: 20vh;
   }
   .post-info {
     font-size: 0.8rem !important;
@@ -177,12 +194,28 @@
 	}
 	  .berita-text .btn {
     font-size: 0.8rem;
-    padding: 6px !important;
+    padding: 6px 6px 6px 1px !important;
     margin-top: 0px !important;
 	  }
     .btn-ma {
-	background: #0a6c71;
+	background: #ffffff;
 	color: #ffffff;
+	}
+	
+	.btn-ma1 {
+    background: #0a6c71;
+    color: #ffffff;
+	}
+	.text-whit {
+	  color: #fff !important;
+	}
+	
+	.lead {
+	  font-size: 1rem;
+	  font-weight: 300;
+	}
+	.ms-3 {
+	  margin-left: 0rem !important;
 	}
 	.btn {
 	  font-family: "Nunito", sans-serif;
@@ -196,7 +229,7 @@
 	  display: inline-block;
 	  padding: 12px 35px;
 	  border-radius: 5px;
-	  color: #fff;
+	  color: #0a6c71;
 	  transition: none;
 	  font-size: 16px;
 	  font-weight: none;

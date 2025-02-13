@@ -17,7 +17,7 @@
 	<div class="px-4 py-51 ">
 		<div class="col-xxl-8 px-12">
 			<div class="row">
-				<section id="content-berita" class="col-md-8 pe-5">
+				<section id="content-berita" class="col-xs-8 col-md-12 pe-5">
 				<div class="container" data-aos="fade-up">
 				<div class="row">
 				<?php foreach ($btr as $ro){
@@ -36,7 +36,7 @@
 							</div>
 						<div class='post-title' data-aos='fade-up' data-aos-delay='100'>
 							<h5>
-							<a href='".base_url()."berita/detail/".$ro['seo']."'>".$ro['title']."</a>
+							<a class='text-merah' href='".base_url()."berita/detail/".$ro['seo']."'>".$ro['title']."</a>
 							</h5>
 						</div>
 						<div class='post-headline title d_berita_detail' data-aos='fade-up' data-aos-delay='100'>
@@ -47,7 +47,7 @@
 					</div>
 					";
 					}?>
-					<div class="col-md-12 mt-5 d-flex justify-content-end">
+					<div class="col-md-12 mt-5 d-flex">
 					<nav>
 						<ul class="pagination">
 							<?php echo $this->pagination->create_links(); ?>
@@ -57,7 +57,7 @@
 					</div>
 				</div><br><br>
 				</section>
-				<section id="sidebar-berita" class="col-md-4 ps-3">
+				<section id="sidebar-berita" class="col-xs-4 col-md-12 ps-3">
 					<h5 class="section-title bg-white text-start text-merah pe-3 ms-3">Berita Terkini</h5>
 					<div id="beritaSidebar" class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white">
 						<div class="list-group list-group-flush border-bottom border-top">

@@ -17,7 +17,7 @@
         <p class="lead">Madrasah Aliyah Ma'arif NU di Kabupaten Musi Rawas, Sumatera Selatan berdiri pada 18 April 2019. MA Ma'arif NU merupakan madrasah swasta yang berada di Pondok Pesantren Darussalamah, Desa Marga Sakti, Kecamatan Muara Kelingi. 
 			<br><br>Secara umum, sejarah Ma'arif NU terkait dengan Lembaga Pendidikan Ma'arif Nahdlatul Ulama (LP Ma'arif NU) yang merupakan bagian dari Nahdlatul Ulama (NU). LP Ma'arif NU berfungsi untuk melaksanakan kebijakan pendidikan NU di tingkat Pengurus Besar, Pengurus Wilayah, Pengurus Cabang, dan Pengurus Majelis Wakil Cabang. 
 		</p>
-		<table>
+		<table class="lead">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
@@ -48,19 +48,19 @@
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Kecamatan/Kota (LN)</td>
+			<td>Kecamatan/Kota</td>
 			<td>:</td>
 			<td>KEC. MUARA KELINGI</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Kab.-Kota/Negara (LN)</td>
+			<td>Kab.-Kota/Negara</td>
 			<td>:</td>
 			<td>KAB. MUSI RAWAS</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td>Propinsi/Luar Negeri (LN)</td>
+			<td>Propinsi/Luar Negeri</td>
 			<td>:</td>
 			<td>PROV. SUMATERA SELATAN</td>
 		</tr>

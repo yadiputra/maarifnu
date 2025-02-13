@@ -208,7 +208,7 @@
 			<h3 class="display-4 fw-bold text-body-emphasis lh-1 mb-2">PPDB</h3>
 			<div class="lead mb-5 title ppbd">Selamat Datang Di web PPDB Online. Aplikasi Penerimaan Peserta didik baru Tahun Pelajaran 2025/2026 MA Ma'arif NU Musi Rawas. </div>
 			  <div class="pricing">
-				  <a href="<?php echo base_url().'ppdb'; ?>" class="btn btn-ma buy-btn">DAFTAR</a>        
+				  <a href="<?php echo base_url().'ppdb'; ?>" class="text-whit btn btn-ma1 buy-btn">DAFTAR</a>        
 			  </div>
 		
 		</div>
