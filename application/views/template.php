@@ -9,7 +9,7 @@
     <meta name="generator" content="Hugo 0.118.2">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="keywords" content="<?php echo $keywords; ?>">
-	
+	<meta name="google-site-verification" content="SEB5TIKO0iAOL_FVIblIBCXqZq7gIx1TXESvWSmsUTg" />
   <!-- Favicons -->
 	<link href="<?php echo base_url(); ?>assets/foto/logo.png" rel="icon">
  
