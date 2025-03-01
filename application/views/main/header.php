@@ -1,9 +1,9 @@
 
 <nav class="navbar navbar-expand-md fixed-top bg-darks navbar-light">
     <div id="logo" class="container-fluid right_">
-      <a href="<?php echo base_url();?>" class="navbar-brand d-flex align-items-center px-2 px-lg-4 col-md-4 col-9">
+      <a href="<?php echo base_url();?>" class="navbar-brand d-flex align-items-center px-2 px-lg-4 col-md-4 col-9" aria-label="logo">
 		<div class="col-md-12 col-xs-12 ps-2 ">
-		<img class="img-fluid pt-2 pb-2" src="<?php echo base_url();?>assets/foto/ma.png">
+		<img class="img-fluid pt-2 pb-2" src="<?php echo base_url();?>assets/foto/ma.png" alt="logo">
 		</div>
 	  </a>
 	  

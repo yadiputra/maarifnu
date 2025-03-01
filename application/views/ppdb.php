@@ -19,9 +19,9 @@
 						<p style="text-align: justify;"><strong>PENDAFTARAN<br>
 						</strong>Pendaftaran Peserta Didik Kelas 10 Baru Tahun Pelajaran 2025/2026 sudah dibuka<br>
 						Pendaftaran bisa dilakukan secara Offline maupun Online.</p>
-						<p style="text-align: justify;"><a href="#"><strong>Lihat Data Pendaftar</strong></a><br>
+	
 						<a href="#"><strong>Lihat Brosur</strong></a></p>
-						<p style="text-align: justify;"><strong>SYARAT PENDAFTARAN<br>
+						<br>
 						Persyaratan Calon Siswa</strong></p>
 						<ol class="wp-block-list" style="text-align: justify;" start="1">
 						<li>Lulusan SMP/MTS Tahun 2025 atau sebelumnya</li>
@@ -51,14 +51,13 @@
 					
 						<p style="text-align: justify;"><strong>PANITIA PPDB<br>
 						</strong>Panitia Pendaftaran Peserta Didik Baru (PPDB) MA MA'ARIF NU Musi Rawas:<br>
-						Jl. Tapak Libok Desa Marga Sakti Kec. Muara Kelingi Kab. Musi Rawas&nbsp;&nbsp;<a href="tel:+6282186047830">0821-8604-7830</a><br>
+						Jl. Tapak Libok Desa Marga Sakti Kec. Muara Kelingi Kab. Musi Rawas&nbsp;&nbsp;<a href="https://api.whatsapp.com/send/?phone=6282182700873" target="_blank">0821-8270-0873</a><br>
 						Pelayanan mulai pukul 08.00-16.00 WIB<br>
 						<p style="text-align: justify;">Perhatian :<br>
 						Pelayanan telpon dan chat whatsapp hanya melalui Contact Person di atas!</p>
 						
-						<p style="text-align: justify;"><a href="#"><strong>Lihat Brosur</strong></a><br>
-						<a href="#"><strong>Lihat Gallery</strong></a><br>
-						<a href="#"><strong>Lihat Data Pendaftar</strong></a></p>
+						<p style="text-align: justify;"><a href="https://pspdb.darussalamah.ponpes.id" target="_blank"><strong>PSPDB</strong></a><br>
+						</p>
 												</div>
 
 												

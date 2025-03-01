@@ -6,21 +6,21 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo base_url();?>assets/foto/slide1.jpg" class="d-block w-100">
+        <img src="<?php echo base_url();?>assets/foto/slide1.jpg" class="d-block w-100" alt="slide show">
 		<div class="container">
           <div class="carousel-caption text-start">
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="<?php echo base_url();?>assets/foto/slide2.jpg" class="d-block w-100">
+        <img src="<?php echo base_url();?>assets/foto/slide2.jpg" class="d-block w-100" alt="slide show">
      <div class="container">
           <div class="carousel-caption">
          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="<?php echo base_url();?>assets/foto/slide3.jpg" class="d-block w-100">
+        <img src="<?php echo base_url();?>assets/foto/slide3.jpg" class="d-block w-100" alt="slide show">
 		<div class="container">
           <div class="carousel-caption text-end">
            </div>
@@ -45,7 +45,7 @@
 <div class="col-lg-5 wow fadeInUp" style="height: auto;"  data-aos="fade-right" data-aos-delay="300">
 <div class="position-relative h-100">
 <div class="gallery_img">
-	<img src="<?php echo base_url();?>assets/foto/isra.jpg" class="card-img-top d-block mx-lg-auto img-fluid">
+	<img src="<?php echo base_url();?>assets/foto/isra.jpg" class="card-img-top d-block mx-lg-auto img-fluid" alt="berita">
 </div>
 </div>
 </div>
@@ -74,7 +74,7 @@
            <div class='col' data-aos='zoom-in' data-aos-delay='100'>
           <div class='card'>
            <div class='gallery_img'>
-            <img src='".base_url()."assets/foto/".$ro['img']."' class='card-img-top d-block mx-lg-auto img-fluid img-thumbnail' style='height: 200px;' alt='Bootstrap Themes' loading='lazy'>
+            <img src='".base_url()."assets/foto/".$ro['img']."' class='card-img-top d-block mx-lg-auto img-fluid img-thumbnail' style='height: 200px;' alt='Berita' loading='lazy'>
 			</div><div class='card-body dis'>
 			<span class='badge bg-merah wow fadeInDown'>Berita</span>
 			<span class='ms-3 wow fadeInDown fst-italic'><i class='fas fa-user me-1'></i>
@@ -92,45 +92,6 @@
 		}?>
         </div>
         </div><br><br>
-<!--<div class="container">
-  <section class="features">
-    <div class="row feture-tabs" data-aos="fade-up">
-      <div class="col-lg-6">
-	  <h3 class="px-3">Program Unggulan Sekolah</h3>
-		<div class="row row-cols-lg-2 g-4">		
-		  <div class="col d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-			<div>
-			  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis py-2">Program Madrasah</h3>
-			  <p>Paragraph of text beneath the heading to explain the heading.</p>
-			</div>
-		  </div>
-		  <div class="col d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-			<div>
-			  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis py-2">Hafalan Minimal Jus 30</h3>
-			  <p>Paragraph of text beneath the heading to explain the heading.</p>
-			</div>
-		  </div>
-		   <div class="col d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-			<div>
-			  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis py-2">Program Madrasah</h3>
-			  <p>Paragraph of text beneath the heading to explain the heading.</p>
-			</div>
-		  </div>
-		  <div class="col d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-			<div>
-			  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis py-2">Hafalan Minimal Jus 30</h3>
-			  <p>Paragraph of text beneath the heading to explain the heading.</p>
-			</div>
-		  </div>
-		</div>	
-      </div>
-      <div class="col-lg-6">
-        <img src="" class="img-fluid" alt="">
-      </div>
-    </div>
-  </section>
-</div><br><br> -->
-
         </div>
 	
 	<div id="prestasi" class="row" style="background-color: #c1ffe038;border-top: 3px solid #d3ffe2" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1500">
@@ -145,9 +106,9 @@
 		</div>
 		<div class="row d-flex align-items-start" style="font-size: small;">
 			<div class="col-xl-2 col-sm-12 nav flex-column nav-pills me-3 mb-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-				<button class="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Tingkat Kabupaten/Kota</button>
-				<button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Tingkat Provinsi</button>
-				<button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tingkat Nasional</button>
+				<button class="nav-prestasi nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Tingkat Kabupaten/Kota</button>
+				<button class="nav-prestasi nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Tingkat Provinsi</button>
+				<button class="nav-prestasi nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tingkat Nasional</button>
 			</div>
 			<div class="col tab-content" id="v-pills-tabContent">
 				<div class="tab-pane fade active show p-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
@@ -156,7 +117,7 @@
 						foreach ($prestasi as $row){
 						echo "<div class='col-xl-3 col-sm-4 pb-4' style='font-size: x-small;'>
 								<span><i class='fas fa-medal' style='color:orange' aria-hidden='true'></i> ".$row['nama_siswa']." ( ".$row['juara']." )</span> <br>
-								<span class='text-center' style='font-size: xx-small;color:goldenrod'> -- ".$row['jenis_lomba']." --</span>
+								<span class='text-center' style='font-size: xx-small;color:#7F6210'> -- ".$row['jenis_lomba']." --</span>
 							</div>
 						";}
 						?>
@@ -168,7 +129,7 @@
 						foreach ($prof as $rows){
 						echo "<div class='col-xl-3 col-sm-4 pb-4' style='font-size: x-small;'>
 								<span><i class='fas fa-medal' style='color:orange' aria-hidden='true'></i> ".$rows['nama_siswa']." ( ".$rows['juara']." )</span> <br>
-								<span class='text-center' style='font-size: xx-small;color:goldenrod'> -- ".$rows['jenis_lomba']." --</span>
+								<span class='text-center' style='font-size: xx-small;color:#7F6210'> -- ".$rows['jenis_lomba']." --</span>
 							</div>
 						";}
 						?>
@@ -181,7 +142,7 @@
 						foreach ($nas as $rowd){
 						echo "<div class='col-xl-3 col-sm-4 pb-4' style='font-size: x-small;'>
 								<span><i class='fas fa-medal' style='color:orange' aria-hidden='true'></i> ".$rowd['nama_siswa']." ( ".$rowd['juara']." )</span> <br>
-								<span class='text-center' style='font-size: xx-small;color:goldenrod'> -- ".$rowd['jenis_lomba']." --</span>
+								<span class='text-center' style='font-size: xx-small;color:#7F6210'> -- ".$rowd['jenis_lomba']." --</span>
 							</div>
 						";}
 						?>
@@ -204,8 +165,8 @@
 		</div>
 		</div>
 		<div class="col-lg-6 wow fadeInUp">
-			<h6 class="section-title bg-white text-start text-merah pe-3">PPDB</h6>
-			<h3 class="display-4 fw-bold text-body-emphasis lh-1 mb-2">PPDB</h3>
+			<h5 class="section-title bg-white text-start text-merah pe-3">PPDB</h5>
+			<h5 class="display-4 fw-bold text-body-emphasis lh-1 mb-2">PPDB</h5>
 			<div class="lead mb-5 title ppbd">Selamat Datang Di web PPDB Online. Aplikasi Penerimaan Peserta didik baru Tahun Pelajaran 2025/2026 MA Ma'arif NU Musi Rawas. </div>
 			  <div class="pricing">
 				  <a href="<?php echo base_url().'ppdb'; ?>" class="text-whit btn btn-ma1 buy-btn">DAFTAR</a>        

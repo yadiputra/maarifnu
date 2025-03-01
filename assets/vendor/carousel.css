@@ -11,7 +11,7 @@ body {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-yellow);
+    color: #FDFF0F;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -94,27 +94,34 @@ body {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #0A5C4B;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #0A5C4B;
 }
 
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #0A5C4B;
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #0A5C4B;
 }
 
 .pricing .featured .buy-btn {
   background: #47b2e4;
   color: #fff;
+}
+
+.nav-prestasi:focus, .nav-prestasi:hover {
+  color: #0A0AFF;
+}
+.nav-prestasi {
+color: #0000B3;
 }
 
 .pricing .featured .buy-btn:hover {
