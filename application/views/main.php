@@ -45,7 +45,7 @@
 <div class="col-lg-5 wow fadeInUp" style="height: auto;"  data-aos="fade-right" data-aos-delay="300">
 <div class="position-relative h-100">
 <div class="gallery_img">
-	<img src="<?php echo base_url();?>assets/foto/puasa.jpg" class="card-img-top d-block mx-lg-auto img-fluid" alt="berita size 328 x 190">
+	<img src="<?php echo base_url();?>assets/foto/<?php echo $record->img ?>" class="card-img-top d-block mx-lg-auto img-fluid" alt="berita size 328 x 190">
 </div>
 </div>
 </div>
