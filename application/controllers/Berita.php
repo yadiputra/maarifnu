@@ -21,8 +21,8 @@ class Berita extends CI_Controller {
 	public function news()
 	{
 		$data['page'] = 'berita';
-		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
-		$data['description'] = "MA Ma'arif NU Musi Rawas";
+		$data['keywords'] = "Berita - MA Ma'arif NU Musi Rawas";
+		$data['description'] = "Berita Terbaru - MA Ma'arif NU Musi Rawas";
 		$jumlah= $this->model_app->view('berita')->num_rows();
 		$config['base_url'] = base_url().'berita/news/';
 		$config['total_rows'] = $jumlah;
@@ -45,10 +45,11 @@ class Berita extends CI_Controller {
 	{
 		//print_r($this->uri->segment('2'));die();
 		$data['page'] = 'berita';
-		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
-		$data['description'] = "MA Ma'arif NU Musi Rawas";
-		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$data['record'] = $this->model_app->view_where('berita',array('seo'=>$this->uri->segment('3')))->row();
-		$this->template->load('template','detail',$data);
+		$data['keywords'] = $data['record']->title;
+		$data['description'] = phpmu($data['record']->detail, 150);
+		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
+		//print_r($data['record']);die();
+		$this->template->load('template2','detail',$data);
 	}
 }

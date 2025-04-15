@@ -15,7 +15,7 @@
 
     <!-- Bootstrap Core Css -->
     <link href="<?php echo base_url(); ?>assets/admin/css/bootstrap.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/summernote/summernote-bs4.min.css">
     <!-- Custom Css -->
     <link href="<?php echo base_url(); ?>assets/admin/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/admin/css/bootstrap-select.css" rel="stylesheet">
@@ -121,17 +121,31 @@
         })
       })
 	</script>
+
     <!-- Waves Effect Plugin Js -->
     <script src="<?php echo base_url(); ?>assets/admin/js/node-waves/waves.js"></script>
-
-    <!-- Ckeditor -->
+	
+ <!-- Ckeditor -->
     <script src="<?php echo base_url(); ?>assets/admin/js/ckeditor/ckeditor.js"></script>
 
+   
     <!-- Custom Js -->
     <script src="<?php echo base_url(); ?>assets/admin/js//admin.js"></script>
-    <script src="<?php echo base_url(); ?>assets/admin/js/editors.js"></script>
-	<!--<script src="<?php echo base_url(); ?>assets/admin/js/bootstrap-select.js"></script>-->
-	
+    <!--<script src="<?php echo base_url(); ?>assets/admin/js/bootstrap-select.js"></script>-->
+	  <script src="<?php echo base_url(); ?>assets/admin/js/editors.js"></script>
+	<script src="<?php echo base_url(); ?>assets/summernote/summernote-bs4.min.js"></script>
+    	<script>
+  $(function () {
+    // Summernote
+    $('#summernote').summernote()
+
+    // CodeMirror
+    CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+      mode: "htmlmixed",
+      theme: "monokai"
+    });
+  })
+</script>
     <!-- Bootstrap Core Js -->
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
 

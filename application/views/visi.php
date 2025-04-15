@@ -13,8 +13,12 @@
     </div>
     </div><!-- /.row -->
 
-		<div class="container" id="icon-grid" data-aos="fade-up">
+		<div class="container" id="icon-grid" data-aos="fade-up">	
 		<div class="text-center">
+		<h1 class="section-title bg-white text-center text-merah px-3" style="">VISI & MISI MA Ma'arif NU Musi Rawas</h1>
+		<br>
+		<br>
+		
 			<h3 class="section-title bg-white text-center text-merah px-3" style="">VISI</h3>
 			<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Unggul, Tafaqquh Fiddin, Rohmatan Lil 'alamin, Akhlaqul Karimah, Idial SDM, Maju Dalam Wawasan Kebangsaan</p>
 		</div>

@@ -12,7 +12,7 @@
     </div>
     </div>
   <div data-aos="fade-down" class="aos-init aos-animate">
-                <h3 class="fw-bold text-center">Ekstrakurikuler</h3>
+                <h1 class="fw-bold text-center">Ekstrakurikuler MA Ma'arif NU Musi Rawas</h1>
                 <div class="row justify-content-center pb-5">
                     <div class="card me-1 bg-success" style="width: 3rem;"></div>
                     <div class="card me-1 bg-success" style="width: 3rem;"></div>

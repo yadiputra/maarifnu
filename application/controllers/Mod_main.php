@@ -22,7 +22,7 @@ class Mod_main extends CI_Controller {
 	{
 		$data['page'] = 'tentang';
 		$data['keywords'] = "Visi & Misi - MA Ma'arif NU Musi Rawas";
-		$data['description'] = "Visi MA Ma'arif NU di Kabupaten Musi Rawas adalah Unggul, Tafaqquh Fiddin, Rohmatan Lil 'alamin, Akhlaqul Karimah, Idial SDM, Maju Dalam Wawasan Kebangsaan";
+		$data['description'] = "Visi & Misi MA Ma'arif NU di Kab. Musi Rawas adalah Unggul, Tafaqquh Fiddin, Rohmatan Lil 'alamin, Akhlaqul Karimah, Idial SDM, Maju Dalam Wawasan Kebangsaan";
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','visi',$data);
 	}
@@ -31,7 +31,7 @@ class Mod_main extends CI_Controller {
 	{
 		$data['page'] = 'estrakulikuler';
 		$data['keywords'] = "Estrakulikuler - MA Ma'arif NU Musi Rawas";
-		$data['description'] = "Estrakulikuler - MA Ma'arif NU Musi Rawas";
+		$data['description'] = "Ekstrakurikuler di Madrasah Aliyah Ma'arif NU meliputi bidang Pramuka, Paskibra, Bola Volly, Futsal, Kaligrafi, Tahfidz, Menjahit, Komputer dan ...";
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','ekskul',$data);
 	}
@@ -49,7 +49,7 @@ class Mod_main extends CI_Controller {
 	{
 		$data['page'] = 'tentang';
 		$data['keywords'] = "Sejarah - MA Ma'arif NU Musi Rawas";
-		$data['description'] = "Madrasah Aliyah Ma'arif NU di Kabupaten Musi Rawas, Sumatera Selatan berdiri pada 18 April 2019";
+		$data['description'] = "MA Ma'arif NU di Kabupaten Musi Rawas, Sumsel berdiri pada 18 April 2019. Madrasah swasta di Ponpes Darussalamah, Desa Marga Sakti, Kec. Muara Kelingi";
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','sejarah',$data);
 	}
@@ -85,7 +85,7 @@ class Mod_main extends CI_Controller {
 	{
 		$data['page'] = 'ppdb';
 		$data['keywords'] = "PPDB - MA Ma'arif NU Musi Rawas";
-		$data['description'] = "Selamat Datang Di web PPDB Online. Aplikasi Penerimaan Peserta didik baru Tahun Pelajaran 2025/2026 MA Ma'arif NU Musi Rawas.";
+		$data['description'] = "Pendaftaran Santri & Peserta Didik Baru (PSPDB) MA Ma'arif NU Musi Rawas Tahun Pelajaran Baru 2025/2026.";
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','ppdb',$data);
 	}
@@ -120,7 +120,7 @@ class Mod_main extends CI_Controller {
 	{
 		$data['page'] = 'Kontak Kami';
 		$data['keywords'] = "Kontak Kami - MA Ma'arif NU Musi Rawas";
-		$data['description'] = "Kontak MA Ma'arif NU Musi Rawas";
+		$data['description'] = "Madrasah Aliyah MA'ARIF NU Musi Rawas Jl. Tapak Libok Pondok Pesantren Darussalamah, Blok B RT II, Desa Marga Sakti Kec. Muara Kelingi Kab. Musi Rawas";
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','kontak',$data);
 		

@@ -13,9 +13,10 @@
     </div>
 <div class="container panel">
 	<!-- /.row -->
-		<div class="col-lg-8 mb-3 mb-lg-0">
+		<div class="col-lg-12 mb-3 mb-lg-0">
 						<div class="page-content">
-						<h1>Pendaftaran Peserta Didik Baru</h1>
+						<h1>Pendaftaran Peserta Didik Baru (PPDB)</h1><br>
+						<h1>MA Ma'arif NU Musi Rawas</h1>
 						<p style="text-align: justify;"><strong>PENDAFTARAN<br>
 						</strong>Pendaftaran Peserta Didik Kelas 10 Baru Tahun Pelajaran 2025/2026 sudah dibuka<br>
 						Pendaftaran bisa dilakukan secara Offline maupun Online.</p>
@@ -43,8 +44,8 @@
 						<li>Fotokopi Ijazah SMP(1 lembar jika sudah ada)</li>
 						<li>Nomor <a href="http://nisn.data.kemdikbud.go.id">NISN (Nomor Induk Siswa Nasional)</a> printout dari&nbsp;<a href="https://nisn.data.kemdikbud.go.id/">nisn.kemdikbud.go.id&nbsp;</a>&nbsp;(1 lembar dibawa saat pendaftaran)</li>
 						</ul>
-						<p style="text-align: justify;"><strong>ALUR PENDAFTARAN<br>
-						Offline :<br>
+						<h2><p style="text-align: justify;">ALUR PENDAFTARAN MA Ma'arif NU Musi Rawas<br></h2>
+						<strong>Offline :<br>
 						</strong>Datang langsung ke MA MA'ARIF NU Jl. Tapak Libok Desa Marga Sakti Kec. Muara Kelingi Kab. Musi Rawas</p>
 						<p style="text-align: justify;"><strong>Online :<br>
 						</strong>Alur pendaftaran diatur sebagai berikut:</p>

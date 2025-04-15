@@ -7,10 +7,15 @@
           </ul>
           </div>
 		  
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Hubungi kami</h3>
-            <p>Jl. Tapak Libok Desa Marga Sakti <br>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            
+            <p>
+			   <strong>Alamat</strong><br>
+			   Madrasah Aliyah MA'ARIF NU Musi Rawas<br>
+			   Jl. Tapak Libok Pondok Pesantren Darussalamah,<br>
+			   Blok B RT II, Desa Marga Sakti <br>
 			   Kec. Muara Kelingi Kab. Musi Rawas <br><br>
+			<strong>Hubungi Kami</strong><br>
               <strong>Phone:</strong> <a class="text-white" href="https://api.whatsapp.com/send/?phone=6282182700873" target="_blank">0821-8270-0873</a><br>
               <strong>Email:</strong> mamaarifnu663@gmail.com<br>
             </p>
@@ -19,15 +24,16 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Link</h4>
             <ul>
-               <li><i class="bx bx-chevron-right"></i> <a href="#">Profil</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">PPBD</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pengumuman</a></li>
-            </ul>
+               <li><i class="bx bx-chevron-right"></i> <a href="./sejarah">Sejarah</a></li>
+               <li><i class="bx bx-chevron-right"></i> <a href="./visi">Visi & Misi</a></li>
+               <li><i class="bx bx-chevron-right"></i> <a href="./struktur">Struktur Organisasi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./ppdb">PSPDB</a></li>
+             </ul>
           </div>
 
 
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Social</h4>
            <div class="social-links mt-3">
 		      <a href="https://www.youtube.com/@mamaarifnumusirawas1644" class="google-plus" target="_blank" aria-label="sosial media youtube"><i class="bx bxl-youtube"></i></a>

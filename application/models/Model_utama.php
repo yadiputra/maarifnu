@@ -52,6 +52,7 @@ class Model_utama extends CI_model{
     public function view_joinn($order,$ordering,$baris,$dari){
         $this->db->select('*');
         $this->db->from('berita ');
+		$this->db->where(array('status'=>'1'));
         $this->db->order_by($order,$ordering);
         $this->db->limit($dari, $baris);
         return $this->db->get();

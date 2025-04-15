@@ -2,30 +2,30 @@
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <!--  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo base_url();?>assets/foto/slide1.jpg" class="d-block w-100" alt="slide show">
+        <img src="<?php echo base_url();?>assets/foto/slide1.webp" class="d-block w-100" alt="slide show size 1335 x 585">
 		<div class="container">
           <div class="carousel-caption text-start">
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="<?php echo base_url();?>assets/foto/slide2.jpg" class="d-block w-100" alt="slide show">
+        <img src="<?php echo base_url();?>assets/foto/slide2.webp" class="d-block w-100" alt="slide show size 1335 x 585">
      <div class="container">
           <div class="carousel-caption">
          </div>
         </div>
       </div>
-      <div class="carousel-item">
+     <!-- <div class="carousel-item">
         <img src="<?php echo base_url();?>assets/foto/slide3.jpg" class="d-block w-100" alt="slide show">
 		<div class="container">
           <div class="carousel-caption text-end">
            </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -40,12 +40,12 @@
 <div class="container" data-aos="fade-up">
 <div class="row g-5 mb-5">
 <div class="text-center mbt-2" data-aos="fade-up" data-aos-delay="50">
-<h3 class="section-title bg-white text-center text-merah px-3" style="">Berita Terkini</h3>
+<h1 class="section-title bg-white text-center text-merah px-3" style="">MA Ma'arif NU Musi Rawas</h1>
 </div>
 <div class="col-lg-5 wow fadeInUp" style="height: auto;"  data-aos="fade-right" data-aos-delay="300">
 <div class="position-relative h-100">
 <div class="gallery_img">
-	<img src="<?php echo base_url();?>assets/foto/isra.jpg" class="card-img-top d-block mx-lg-auto img-fluid" alt="berita">
+	<img src="<?php echo base_url();?>assets/foto/puasa.jpg" class="card-img-top d-block mx-lg-auto img-fluid" alt="berita size 328 x 190">
 </div>
 </div>
 </div>
@@ -58,7 +58,7 @@
 		<?php echo tgl_long($record->tgl_up) ?></span>
 	</div>
 	<h3 class=" display-5 fw-bold text-body-emphasis lh-1 mb-5"><?php echo $record->title ?></h3>
-	<div class="lead mb-5 title berita"><?php echo $record->detail ?></div>
+	<div class="lead mb-5 title berita"><?php echo phpmu($record->detail, 200) ?></div>
 	 <div class="pricing berita-text">
 		  <a class="btn btn-ma buy-btn py-3 px-5 mt--2" href="<?php echo base_url().'berita/detail/'.$record->seo.''; ?>">Selanjutnya</a>			  
 	 </div>
@@ -74,7 +74,7 @@
            <div class='col' data-aos='zoom-in' data-aos-delay='100'>
           <div class='card'>
            <div class='gallery_img'>
-            <img src='".base_url()."assets/foto/".$ro['img']."' class='card-img-top d-block mx-lg-auto img-fluid img-thumbnail' style='height: 200px;' alt='Berita' loading='lazy'>
+            <img src='".base_url()."assets/foto/".$ro['img']."' class='card-img-top d-block mx-lg-auto img-fluid img-thumbnail' style='height: 200px;' alt='Berita size 328 x 190' loading='lazy'>
 			</div><div class='card-body dis'>
 			<span class='badge bg-merah wow fadeInDown'>Berita</span>
 			<span class='ms-3 wow fadeInDown fst-italic'><i class='fas fa-user me-1'></i>
@@ -100,7 +100,7 @@
 	<div class="container mb-3">
 		<div class="row mt-5 d-flex justify-content-center">
 			<div class="col pb-2">
-				<h4 class="mt-0 fw-bolder text-center" style="color: #35814f;">PRESTASI SISWA</h4>
+				<h1 class="mt-0 fw-bolder text-center" style="color: #35814f;">PRESTASI SISWA MA MA'ARIF NU</h1>
 				<hr class="col new2 d-flex justify-content-center" style="color:yellow">
 			</div> 
 		</div>
@@ -161,13 +161,13 @@
 		</div>
 		<div class="col-lg-4 wow fadeInUp" style="min-height: 400px;" data-aos="zoom-in" data-aos-delay="150">
 		<div class="position-relative h-100 gallery_img">
-			<img class="img-fluid position-absolute w-100 h-100" src="assets/foto/img10.jpg" alt="">
+			<img class="img-fluid position-absolute w-100 h-100" src="assets/foto/img10.png" alt="ppdb size 348 x 404">
 		</div>
 		</div>
 		<div class="col-lg-6 wow fadeInUp">
-			<h5 class="section-title bg-white text-start text-merah pe-3">PPDB</h5>
-			<h5 class="display-4 fw-bold text-body-emphasis lh-1 mb-2">PPDB</h5>
-			<div class="lead mb-5 title ppbd">Selamat Datang Di web PPDB Online. Aplikasi Penerimaan Peserta didik baru Tahun Pelajaran 2025/2026 MA Ma'arif NU Musi Rawas. </div>
+			<h1 class="section-title bg-white text-start text-merah pe-3">PSPDB</h1>
+			<h2 class="display-4 fw-bold text-body-emphasis lh-1 mb-2">PSPDB</h2>
+			<div class="lead mb-5 title ppbd">Telah dibuka Penerimaan Santri Peserta Didik Baru (PSPDB) MA Ma'arif NU Musi Rawas Tahun 2025/2026. </div>
 			  <div class="pricing">
 				  <a href="<?php echo base_url().'ppdb'; ?>" class="text-whit btn btn-ma1 buy-btn">DAFTAR</a>        
 			  </div>

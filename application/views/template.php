@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
-	<title>MA Ma'arif NU Musi Rawas</title>
+	<title><?php echo $keywords; ?></title>
 	<meta charset="utf-8">
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="<?php echo $keywords; ?>">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="title" content="<?php echo $keywords; ?>">
+	<meta name="keywords" content="MA MA'ARIF NU, MADRASAH ALIYAH MA'ARIF NU, Pondok Pesantren Darussalamah, Sekolah, ppdb, Penerimaan Santri Baru, Madrasah aliyah, Kabupaten Musi Rawas, ppds">
+	<meta name="news_keywords" content="MA MA'ARIF NU, MADRASAH ALIYAH MA'ARIF NU, Pondok Pesantren Darussalamah, Sekolah, ppdb, Penerimaan Santri Baru, Madrasah aliyah, Kabupaten Musi Rawas, ppds">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="subject" content="Situs Pendidikan">
 	<meta name="copyright" content="MA MA'ARIF NU Musi Rawas">
 	<meta name="language" content="Indonesia">
@@ -32,9 +33,19 @@
 	<meta name="webcrawlers" content="all">
 	<meta name="rating" content="general">
 	<meta name="spiders" content="all">
-	<meta itemprop="name" content="MA MA'ARIF NU Musi Rawas">
-	<meta itemprop="description" content="Website resmi Ma Ma'arif NU Musi Rawas">
+	<meta name="ahrefs-site-verification" content="3498e1a6f4ebce911515a7e092dcd8de499ef2e8bdaa1d76e796c9871317e3f5">
 	<meta name="google-site-verification" content="SEB5TIKO0iAOL_FVIblIBCXqZq7gIx1TXESvWSmsUTg" />
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MV7YS55P8"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-7MV7YS55P8');
+	</script>
+
   <!-- Favicons -->
 	<link href="<?php echo base_url(); ?>assets/foto/logo.png" rel="icon">
  
@@ -49,7 +60,7 @@
     <!-- Custom styles for this template -->
 	<link href="<?php echo base_url(); ?>assets/vendor/carousel.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>assets/vendor/mobile.css" rel="stylesheet">
-    
+	
     <link href="<?php echo base_url(); ?>assets/aos/aos.css" rel="stylesheet">
 	
      <link href="<?php echo base_url(); ?>assets/vendor/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />

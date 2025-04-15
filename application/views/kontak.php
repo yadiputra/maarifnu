@@ -5,8 +5,8 @@
                     <div class="title-berita">
                         <div class="wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                             <div class="text-center">
-                                <h6 class="section-title bg-white text-center text-merah px-3">Madrasah Aliyah
-                                    Ma'arif NU</h6>
+                                <h1 class="section-title bg-white text-center text-merah px-3">Kontak Madrasah Aliyah
+                                    Ma'arif NU</h1>
                             </div>
                         </div>
                     </div>

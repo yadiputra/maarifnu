@@ -14,6 +14,8 @@
     </div><!-- /.row -->
 
 		<div class="container" id="icon-grid" data-aos="fade-up">
+		<h1 class="section-title bg-white text-start text-merah pe-3">Struktur MA Ma'arif NU Musi Rawas</h1>
+		
 		</div>
 		<div class="container custom-px-5" style="background: white; z-index:1; position:relative;" data-aos="fade-up" data-aos-delay="100">
             <div class="row ml-0 mr-0 text-left">

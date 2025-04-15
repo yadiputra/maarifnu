@@ -35,7 +35,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group">
                                          <h2 class="card-inside-title">Detail Berita</h2>
-										<textarea id="ckeditor" name="detail">
+										  <textarea id="ckeditor" name="detail">
 										</textarea>
                                     </div>
                                 </div>

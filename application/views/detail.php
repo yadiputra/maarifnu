@@ -20,7 +20,7 @@
 				</nav>
 			</div>
 			<div class="row">
-				<section id="content-berita" class="col-md-8">
+				<section id="content-berita" class="col-xs-8 col-md-12">
 				<div class="title-berita mb-3" data-aos="fade-up" data-aos-delay="100">
 					<h1 class="display-5"><?php echo $record->title ?></h1>
 					<span class="wow fadeInDown fst-italic"><i class="bx bxs-calendar me-1"></i>
@@ -37,7 +37,7 @@
 				<?php echo $record->detail ?>
 				</div><br><br>
 				</section>
-				<section id="sidebar-berita" class="col-md-4">
+				<section id="sidebar-berita"  class="col-xs-4 col-md-12">
 					<h5 class="section-title bg-white text-start text-merah pe-3 ms-3">Berita Terkini</h5>
 					<div id="beritaSidebar" class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white">
 						<div class="list-group list-group-flush border-bottom border-top">

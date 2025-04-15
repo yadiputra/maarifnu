@@ -697,3 +697,9 @@ display: block !important;
     flex: 0 0 auto;
     width: 66.66666667%;
   }
+h1.section-title::after {
+  bottom: 12px;
+}
+h1.section-title::before {
+  top: 12px;
+}

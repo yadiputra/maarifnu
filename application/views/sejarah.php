@@ -10,7 +10,7 @@
 	</ol>
 	</nav>	 
       <div class="col-lg-12 py-1" data-aos="fade-up" data-aos-delay="100">
-		<h3 class="section-title bg-white text-start text-merah pe-3">Sejarah</h3>
+		<h1 class="section-title bg-white text-start text-merah pe-3">Sejarah MA Ma'arif NU Musi Rawas</h1>
 		<div class="image-berita">
 		<br>
 		</div>
@@ -92,7 +92,7 @@
 
 	<div class="row gb-5 mbb-5" data-aos="fade-up" data-aos-delay="100">
 	<div class="text-center">
-	<h3 class="section-title bg-white text-center text-merah px-3" style="">PETA MA MA'ARIF NU</h3>
+	<h1 class="section-title bg-white text-center text-merah px-3" style="">PETA MA MA'ARIF NU</h1>
 	</div>
 	<div class="col-md-12">
 		<div class="row">

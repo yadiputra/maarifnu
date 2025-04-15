@@ -16,16 +16,16 @@
 		<div class="nav-item dropdown">
 		<a href="#" class="nav-link dropdown-toggle <?= ($page == "tentang" ? "active" : ""); ?>" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
 		<div class="dropdown-menu fade-down m-0">
-		<a href="<?php echo base_url().'sejarah'; ?>" class="dropdown-item">Sejarah</a>
-		<a href="<?php echo base_url().'visi'; ?>" class="dropdown-item">Visi & Misi</a>
-		<a href="<?php echo base_url().'struktur'; ?>" class="dropdown-item">Struktur Sekolah</a>
+		<a href="./sejarah" class="dropdown-item">Sejarah</a>
+		<a href="./visi" class="dropdown-item">Visi & Misi</a>
+		<a href="./struktur" class="dropdown-item">Struktur Sekolah</a>
 		</div>
 		</div>
 		<a href="<?php echo base_url()?>#prestasi" class="nav-item nav-link" >Prestasi</a>
-		<a href="<?php echo base_url().'estrakulikuler'; ?>" class="nav-item nav-link <?= ($page == "estrakulikuler" ? "active" : ""); ?>">Estrakulikuler</a>
-		<a href="<?php echo base_url().'berita'; ?>" class="nav-item nav-link <?= ($page == "berita" ? "active" : ""); ?>">Berita</a>
-		<a href="<?php echo base_url().'kontak'; ?>" class="nav-item nav-link <?= ($page == "kontak" ? "active" : ""); ?>">Kontak Kami</a>
-		<a href="<?php echo base_url().'ppdb'; ?>" class="nav-item nav-link <?= ($page == "ppdb" ? "active" : ""); ?>">PPDB</a>
+		<a href="./estrakulikuler" class="nav-item nav-link <?= ($page == "estrakulikuler" ? "active" : ""); ?>">Estrakulikuler</a>
+		<a href="./berita" class="nav-item nav-link <?= ($page == "berita" ? "active" : ""); ?>">Berita</a>
+		<a href="./kontak" class="nav-item nav-link <?= ($page == "kontak" ? "active" : ""); ?>">Kontak Kami</a>
+		<a href="./ppdb" class="nav-item nav-link <?= ($page == "ppdb" ? "active" : ""); ?>">PSPDB</a>
 		</div>
 		</div>
 

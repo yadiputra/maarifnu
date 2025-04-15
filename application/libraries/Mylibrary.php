@@ -205,10 +205,8 @@ function getBrowser() {
     return $browser;
 }
 
-function phpmu($s) {
-    $c = array (' ');
-    $d = array ('&amp;','amp;','nbsp;','&nbsp;','-','/','\\',',','.','#',':',';','\'','"','[',']','{','}',')','(','|','`','~','!','@','%','$','^','&','*','=','?','+','–');
-    $s = str_replace($d, '', $s); // Hilangkan karakter yang telah disebutkan di array $d
-    $s = strtolower(str_replace($c, ' ', $s)); // Ganti spasi dengan tanda - dan ubah hurufnya menjadi kecil semua
-    return $s;
+function phpmu($sa, $num_char) {
+	$detail=strip_tags($sa);
+	$sas= substr($detail, 0, $num_char). '...';
+    return $sas;
 }
