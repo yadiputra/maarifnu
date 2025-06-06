@@ -46,7 +46,6 @@ class Admin extends CI_Controller {
 	}
 	
 	
-	
 	public function ppdb()
 	{
 		
@@ -74,4 +73,33 @@ class Admin extends CI_Controller {
 		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$this->template->load('template','ppdb',$data);
 	}
+	
+		
+	
+	public function x1()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLSeLhOSBpFLNr8XLBObMNELSjW0Yn61NuoyBLfoNO3LR6LXnRQ/viewform?usp=header');
+	}
+	public function x2()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLScpUck0FMr-zbv4vp-tUxmmRp1-Ii0XFG7OzSOwb791kpQ1fg/viewform?usp=header');
+	}
+	public function ipa1()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLSfEOPbNiP_uQqIW1R0IA9X72EiVbDkWeUlKW1w32Of3epZmeA/viewform?usp=header');
+	}
+	
+	public function ipa2()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLSe665YtGyJP7UABPua22Bf-D6xyHQoO8RF22HAztYU6cWYzZA/viewform?usp=header');
+	}
+	public function ips1()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLSda1XOQhPL9paZOS3FXDGAhM9hAbvfFRs8R7QYxd7dvnME08A/viewform?usp=header');
+	}
+	public function ips2()
+	{
+		redirect('https://docs.google.com/forms/d/e/1FAIpQLSc1ibq9mGNlRGyM6950LZChQy0Ffm5aGDDqEUloAj6ILc1kKg/viewform?usp=header');
+	}
+	
 }

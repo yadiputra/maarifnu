@@ -60,6 +60,15 @@ $route = array(
     'kontak' => 'mod_main/kontak',
     'estrakulikuler' => 'mod_main/estrakulikuler',
     'berita' => 'berita/news',
+	
+    'ASAS-X-PERTAMA' => 'admin/x1',
+    'ASAS-X-KEDUA' => 'admin/x2',
+	
+    'ASAS-XIIPA-PERTAMA' => 'admin/ipa1',
+	'ASAS-XIIPA-KEDUA' => 'admin/ipa2',
+	
+	'ASAS-XIIPS-PERTAMA' => 'admin/ips1',
+    'ASAS-XIIPS-KEDUA' => 'admin/ips2',
 
 );
 $route['404_override'] = '';
